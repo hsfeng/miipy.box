@@ -1,0 +1,28 @@
+{
+  "name": "miipy.box",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "underscore": "~1.6.0",
+    "bootstrap": "~3.2.0",
+    "dropbox-build": "*"
+  },
+  "devDependencies": {},
+  "exportsOverride": {
+    "bootstrap": {
+      "css": "dist/css/bootstrap*.min.css",
+      "css/../fonts": "dist/fonts/*",
+      "js": "dist/js/*.js"
+    },
+    "jquery": {
+      "js": "dist/jquery.*"
+    },
+    "underscore": {
+      "js": "underscore.js"
+    },
+    "dropbox-build": {
+      "js": "dropbox.*"
+    },
+    "*": {}
+  }
+}
